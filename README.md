@@ -8,8 +8,8 @@ at this point:
 -   What open-source component should I import?
 -   ... Should I use Angular or Vue, instead?
 
-    But the beauty of React lies in the incredible amount of possibilies it offers. To get into it step by step, I used
-    [React Docs BETA](https://beta.reactjs.org/) with the `create-react-app` node module.
+But the beauty of React lies in the incredible amount of possibilies it offers. To get into it step by step, I used
+[React Docs BETA](https://beta.reactjs.org/) with the `create-react-app` node module.
 
 # create-react-app
 
