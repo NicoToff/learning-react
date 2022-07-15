@@ -11,7 +11,7 @@ at this point:
 But the beauty of React lies in the incredible amount of possibilies it offers. To get into it step by step, I used
 [React Docs BETA](https://beta.reactjs.org/) with the `create-react-app` node module.
 
-# create-react-app
+# `npx create-react-app`
 
 ## Getting Started with Create React App
 

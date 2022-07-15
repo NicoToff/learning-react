@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import SimpleButton from "./Button.js";
+import logo from "./img/logo.svg";
+import "./css/App.css";
+import SimpleButton from "./hooks/Button.js";
+import { openUrl } from "./utility/tabControl.js";
+import Badge from "./hooks/Badge";
+import ts from "./img/ts.svg";
+import git from "./img/git.svg";
 
-function App() {
+export default function App() {
     return (
         <div className="App">
             <header className="App-header">
@@ -10,13 +14,12 @@ function App() {
                 <p>This is my first React App.</p>
                 <SimpleButton
                     text="Learn Here"
-                    onClickEvent={() => openInNewTab("https://beta.reactjs.org/")}
+                    onClickEvent={() => openUrl("https://beta.reactjs.org/", "newTab")}
                 />
+                <div>
+                    <Badge img={ts} /> <Badge img={git} />
+                </div>
             </header>
         </div>
     );
 }
-
-const openInNewTab = url => window.open(url, "_blank", "noopener,noreferrer");
-
-export default App;

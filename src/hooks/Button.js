@@ -1,4 +1,4 @@
-import "./bootswatch-darkly.css";
+import "../css/bootswatch-darkly.css";
 
 export default function SimpleButton({ text, onClickEvent }) {
     return (
