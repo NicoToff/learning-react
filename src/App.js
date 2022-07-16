@@ -7,6 +7,7 @@ import ts from "./img/skills/ts.svg";
 import * as skills from "./img/skills/skills.js";
 
 export default function App() {
+    console.log(skills);
     return (
         <div className="App">
             <header className="App-header">
@@ -18,7 +19,7 @@ export default function App() {
                 />
                 <div>
                     <h1>Choose your skills</h1>
-                    <Badge img={ts} /> <skills.Git />
+                    <skills.Git />
                 </div>
             </header>
         </div>
